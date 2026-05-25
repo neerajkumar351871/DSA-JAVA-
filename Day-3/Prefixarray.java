@@ -33,7 +33,7 @@ public class Prefixarray {
         }
 
         System.out.println("MAX:" + max);
-        System.out.println("min:" + min);
+        System.out.println("MIN:" + min);
 
     }
 
