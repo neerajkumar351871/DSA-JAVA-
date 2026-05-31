@@ -28,7 +28,7 @@ public class Bubblesort {
                 //j<array.length-1-i this used to after swap the element not check not go lopp swaped elements.
             // int swap=0;
             for (int j = 0; j < array.length - 1 - i; j++) {
-                if (array[j] < array[j + 1]) {
+                if (array[j] >array[j + 1]) {
 
                     int temp = array[j];
                     array[j] = array[j + 1];
@@ -50,7 +50,7 @@ public class Bubblesort {
      }
      
     public static void main(String args[]) {
-        int array[] = {5, 4, 1, 3, 2};
+        int array[] = {2,0,2,1,1,0};
         printarray(array);
        // bubblesort(array);
         System.out.println("AFTER SWAP");
